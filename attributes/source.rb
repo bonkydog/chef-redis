@@ -22,7 +22,7 @@ default['redis']['source']['version'] = "2.4.5"
 default['redis']['source']['prefix']  = "/usr/local"
 
 default['redis']['source']['tar_url']   =
-  "http://redis.io/files/redis-#{node['redis']['source']['version']}.tar.gz"
+  "http://redis.googlecode.com/files/redis-#{node['redis']['source']['version']}.tar.gz"
 default['redis']['source']['tar_checksum']   =
   "aa92b0370377e7904432b7ff113aca5e15dd6f615488695b16f2bb170c8f1377"
 
